@@ -1,0 +1,264 @@
+body {
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+  color: #7a7a7a;
+}
+
+hr {
+  border: dotted #f0f0f0 6px;
+  border-bottom: none;
+  width: 2.5%;
+  margin: 4rem auto;
+}
+
+/* Nav Bar */
+.navbar {
+  margin: 0.5rem auto 2rem auto;
+}
+
+/* Title Section */
+#title {
+  background-color: #dddddd;
+}
+
+.container-fluid {
+  padding: 2% 15%
+}
+
+.main-heading {
+  color: #ffff;
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+  font-size: 3.0rem;
+  line-height: 1.5;
+}
+
+.sub-slogan {
+  color: #ffff;
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+}
+
+.monitor-sketch {
+  padding: 5% 0 5% 0
+}
+
+/* Hi Section */
+.hi-container {
+  padding: 4% 25% 0 25%
+}
+
+.img-myself {
+  border-radius: 100%;
+}
+
+.bio-head-hi {
+  margin-top: 2.0rem;
+  color: #80DDEC;
+  font-family: 'Asap', sans-serif;
+  line-height: 1.5;
+}
+
+/* Code Section */
+.code-container {
+  padding: 0 15%
+}
+
+.bio-head-languages {
+  margin-bottom: 2rem;
+  color: #80DDEC;
+  font-family: 'Asap', sans-serif;
+  line-height: 1.5;
+}
+
+.code-skill {
+  margin-bottom: 2.0rem;
+}
+
+.code-img {
+  width: 40%
+}
+
+.battery-icon {
+  margin-top: 1rem;
+}
+
+.battery-icon {
+  color: #9a9a9a;
+}
+
+.fa-battery-full:hover {
+  color: #80DDEC;
+}
+
+.fa-battery-quarter:hover {
+  color: #80DDEC;
+}
+
+.fa-battery-three-quarters:hover {
+  color: #80DDEC;
+}
+
+/* Achievements Section */
+
+.achievements-container {
+    padding: 0 25%;
+  }
+
+.bio-head-achievements {
+  margin-bottom: 2rem;
+  color: #80DDEC;
+  font-family: 'Asap', sans-serif;
+  line-height: 1.5;
+}
+
+.achievement {
+  margin-bottom: 4rem;
+}
+
+/*Chat To Me Section */
+
+#Chat-to-me {
+  margin-bottom: 4rem;
+}
+
+.chat-container {
+    padding: 0 25%;
+  }
+
+  .bio-head-chat {
+    margin-bottom: 2rem;
+    color: #80DDEC;
+    font-family: 'Asap', sans-serif;
+    line-height: 1.5;
+  }
+
+.msg{
+  border: none;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #80DDEC;
+}
+
+.msg:hover{
+  color: #fff;
+  background-color: #80d7e5;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #dddddd;
+  color: #fff;
+  padding: 2%;
+}
+
+
+
+.footer-icon {
+  text-align: center;
+  margin-bottom: 1%
+}
+
+.fa-twitter {
+  margin: 0 0.5%
+}
+
+.fa-twitter:hover {
+  color: #80DDEC;
+}
+
+.fa-github {
+  margin: 0 0.5%
+}
+
+.fa-github:hover {
+  color: #80DDEC;
+}
+
+.fa-envelope {
+  margin: 0 0.5%
+}
+
+.fa-envelope:hover {
+  color: #80DDEC;
+}
+
+.footer-title {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.mjc {
+  margin: 0
+}
+
+.arr {
+  margin: 0
+}
+
+.icon-twitter {
+  color: #ffffff;
+}
+
+.icon-github {
+  color: #ffffff;
+}
+
+.icon-email {
+  color: #ffffff;
+}
+
+/* Back To Top Button */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  background-color: #ffff;
+  color: #80DDEC;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #80DDEC;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+
+#back-to-top-btn:hover, #back-to-top-tbtn:focus {
+  background-color: #80DDEC;
+  color: #ffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border-left: 1px solid #E6ECF8;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #80DDEC;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #80DDEC;
+}
